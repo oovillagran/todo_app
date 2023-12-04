@@ -2,12 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Task;
 use Illuminate\Http\Request;
 
 class TasksController extends Controller
 {
   public function index() {
-    return view('tasks.index');
+    //Muestra todas las tareas cuando visitamos la pagina inicial
+    $tasks = Task::orderBy('id', 'desc')->get();
+
+    return view('tasks.index', [
+      'tasks' => $tasks,
+    ]);
   }
 
   public function create() {
@@ -15,7 +21,15 @@ class TasksController extends Controller
   }
 
   public function store() {
-    return request()->all();
+    $task = Task::create([
+      'description' => request('description'),
+    ]);
+
+    //Regresa a la pagina inicial cuando la tarea es creada
+    return redirect('/');
+    //Pasa la nueva tarea creada al listado general de tareas
+    //Mostrar todas las tareas que tenemos
+
   }
 }
 

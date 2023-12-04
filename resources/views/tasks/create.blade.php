@@ -9,7 +9,7 @@
   <div class="form-group">
     @csrf
     <label for="description">Descripcion de la Tarea</label>
-    <input type="text" class="form-control" name="description" />
+    <input type="text" class="form-control" name="description" style="margin-bottom: 20px;" />
   </div>
 
   <div class="form-group">

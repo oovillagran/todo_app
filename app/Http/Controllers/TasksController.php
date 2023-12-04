@@ -21,7 +21,7 @@ class TasksController extends Controller
   }
 
   public function store() {
-    $task = Task::create([
+    Task::create([
       'description' => request('description'),
     ]);
 
@@ -30,6 +30,16 @@ class TasksController extends Controller
     //Pasa la nueva tarea creada al listado general de tareas
     //Mostrar todas las tareas que tenemos
 
+  }
+  
+  // Marcar una tarea como completa
+  public function update($id) {
+    $task = Task::where('id', $id)->first();
+
+    $task->completed_at = now();
+    $task->save();
+
+    return redirect('/');
   }
 }
 
@@ -41,7 +51,6 @@ class TasksController extends Controller
 
 // Display a list of tasks
 
-// Mark a task as completed
 
 // Divide the tasks into completed and uncompleted section
 

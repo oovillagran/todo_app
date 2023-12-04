@@ -8,8 +8,18 @@
       <div class="card-body">
         <p>
           {{ $task->description }}
+          @if($task->isCompleted())
+            <span class="badge bg-success">Completo</span>
+          @endif
         </p>
-        <a href="#" class="btn btn-success">Completo</a>
+        <form action="/tasks/{{ $task->id }}" method="POST">
+          @method('PATCH')
+          @csrf
+
+          @if(!$task->isCompleted())
+            <button class="btn btn-success" type="submit">Completo</button>
+          @endif
+        </form>
       </div>
     </div>
   @endforeach

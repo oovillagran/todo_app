@@ -9,7 +9,9 @@ class TasksController extends Controller
 {
   public function index() {
     //Muestra todas las tareas cuando visitamos la pagina inicial
-    $tasks = Task::orderBy('id', 'desc')->get();
+    $tasks = Task::orderBy('completed_at')
+                  ->orderBy('id', 'DESC')
+                  ->get();
 
     return view('tasks.index', [
       'tasks' => $tasks,
@@ -41,17 +43,12 @@ class TasksController extends Controller
 
     return redirect('/');
   }
+
+  // Elimina una tarea permanentemente
+  public function delete($id) {
+    $task = Task::where('id', $id)->first();
+    $task->delete();
+
+    return redirect('/');
+  }
 }
-
-// Replace the homepage
-
-// Handle the task submission data 
-
-// Create a task
-
-// Display a list of tasks
-
-
-// Divide the tasks into completed and uncompleted section
-
-// Delete a task permanentely

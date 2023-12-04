@@ -4,7 +4,7 @@
   <h1>Lista de Tareas</h1>
 
   @foreach($tasks as $task)
-    <div class="card" style="margin-bottom: 20px;">
+    <div class="card @if($task->isCompleted()) border-success @endif" style="margin-bottom: 20px;">
       <div class="card-body">
         <p>
           {{ $task->description }}
@@ -12,14 +12,22 @@
             <span class="badge bg-success">Completo</span>
           @endif
         </p>
-        <form action="/tasks/{{ $task->id }}" method="POST">
-          @method('PATCH')
-          @csrf
 
-          @if(!$task->isCompleted())
-            <button class="btn btn-success" type="submit">Completo</button>
-          @endif
-        </form>
+        @if(!$task->isCompleted())
+          <form action="/tasks/{{ $task->id }}" method="POST">
+            @method('PATCH')
+            @csrf
+
+            <button class="btn btn-secondary" type="submit">Completo</button>
+          </form>
+        @else
+          <form action="/tasks/{{ $task->id }}" method="POST">
+            @method('DELETE')
+            @csrf
+
+            <button class="btn btn-danger" type="submit">Eliminar</button>
+          </form>
+        @endif
       </div>
     </div>
   @endforeach

@@ -1,66 +1,213 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<a name="readme-top"></a>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center">
+  <img src="./public/images/readme-logo.png" alt="logo" width="auto"  height="auto" />
+  <br/>
 
-## About Laravel
+  <h3><b>Lista de Tareas App</b></h3>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+</div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<!-- TABLE OF CONTENTS -->
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# 📗 Table of Contents
 
-## Learning Laravel
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Lista de Tareas App ](#-lista-de-tareas-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<!-- PROJECT DESCRIPTION -->
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# 📖 Lista de Tareas App <a name="about-project"></a>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Lista de Tareas App** is a task management application developed using Laravel and MySQL as backend technologies. Bootstrap has been utilized to define the application's styles, providing a user-friendly interface for managing tasks and activities.
 
-## Laravel Sponsors
+## 🛠 Built With <a name="built-with"></a>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Tech Stack <a name="tech-stack"></a>
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+<details>
+  <summary>Laravel</summary>
+  <ul>
+    <li><a href="https://laravel.com/docs/10.x/readme">Laravel</a></li>
+  </ul>
+</details>
 
-## Contributing
+<details>
+  <summary>MySQL</summary>
+  <ul>
+    <li><a href="https://www.mysql.com/">MySQL</a></li>
+  </ul>
+</details>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<details>
+<summary>Bootstrap</summary>
+  <ul>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
+</details>
 
-## Code of Conduct
+<!-- Features -->
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Key Features <a name="key-features"></a>
 
-## Security Vulnerabilities
+- **DataBase**
+- **Backend**
+- **SPA**
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## License
+<!-- LIVE DEMO -->
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Not available yet.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+    cd my-folder
+    git@github.com:oovillagran/ct-candidates-app.git
+```
+
+### Install
+
+Install this project with:
+
+
+
+```sh
+  cd ct-candidates-app
+  Open the terminal into the root directory
+  composer install
+  npm install
+  copy .env.example and rename it to .env
+  php artisan key:generate
+  Set up the database
+  Run php artisan migrate
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+
+```sh
+  php artisan serve
+```
+-
+
+### Run tests
+
+N/A
+
+### Deployment
+
+N/A
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Author1**
+
+- GitHub: [@oovillagran](https://github.com/oovillagran)
+- Twitter: [@oovillagran](https://twitter.com/oovillagran)
+- LinkedIn: [oovillagran](https://linkedin.com/in/oovillagran)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Set up user login option**
+- [ ] **Set up authorization**
+- [ ] **Show activities for login users**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Thanks to [Paul Sabando](https://github.com/pspaulus) from [Funiber](www.funiber.org) for allowing me to work on this grateful assignment.
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project feel free to reach me on my accounts or email me at oscar.villagran@hotmail.com.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

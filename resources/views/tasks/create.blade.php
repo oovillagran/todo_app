@@ -17,5 +17,13 @@
       Crear Tarea
     </button>
   </div>
+
+  @if($errors->any())
+    <div class="alert alert-danger" role="alert" style="margin-top: 20px;">
+      @foreach($errors->all() as $error)
+        {{ $error }}
+      @endforeach
+    </div>
+  @endif
 </form>
 @endsection
